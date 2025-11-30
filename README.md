@@ -1,2 +1,2 @@
 # Task1-Prodigy
-Machine learning model for classifying chronic kidney disease (CKD) using clinical dataset features. Includes preprocessing, model training, evaluation, and backend API for prediction.
+Implementation of GPT-2 fine-tuning for Prodigy Task 1. This repository includes data handling, training scripts, inference module, and project documentation.

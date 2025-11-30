@@ -1,0 +1,21 @@
+fastapi==0.95.2
+uvicorn[standard]==0.22.0
+
+transformers==4.30.2
+datasets==2.14.2
+
+# Let pip install correct CPU wheel automatically
+torch
+
+accelerate==0.21.0
+
+# --- FIXED: versions with precompiled Windows wheels ---
+tokenizers==0.13.3
+safetensors==0.3.1
+sentencepiece==0.1.97
+
+python-multipart==0.0.6
+pydantic==1.10.12
+aiofiles==23.2.1
+requests==2.31.0
+wandb==0.23.0

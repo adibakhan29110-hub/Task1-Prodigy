@@ -1,0 +1,41 @@
+<!-- Logo.svg -->
+<svg width="220" height="220" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="aiGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5AB8FF"/>
+      <stop offset="50%" stop-color="#6C4CFF"/>
+      <stop offset="100%" stop-color="#9A3BFF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Hexagonal neuron shape -->
+  <path d="M100 20 
+           L160 55 
+           L160 125 
+           L100 160 
+           L40 125 
+           L40 55 Z"
+        fill="url(#aiGrad)" opacity="0.92" />
+
+  <!-- Neural network nodes -->
+  <circle cx="100" cy="40" r="6" fill="white" />
+  <circle cx="140" cy="65" r="6" fill="white" />
+  <circle cx="140" cy="115" r="6" fill="white" />
+  <circle cx="100" cy="140" r="6" fill="white" />
+  <circle cx="60" cy="115" r="6" fill="white" />
+  <circle cx="60" cy="65" r="6" fill="white" />
+
+  <!-- Connections -->
+  <line x1="100" y1="40" x2="140" y2="65" stroke="white" stroke-width="2"/>
+  <line x1="140" y1="65" x2="140" y2="115" stroke="white" stroke-width="2"/>
+  <line x1="140" y1="115" x2="100" y2="140" stroke="white" stroke-width="2"/>
+  <line x1="100" y1="140" x2="60" y2="115" stroke="white" stroke-width="2"/>
+  <line x1="60" y1="115" x2="60" y2="65" stroke="white" stroke-width="2"/>
+  <line x1="60" y1="65" x2="100" y2="40" stroke="white" stroke-width="2"/>
+
+  <!-- Brand name -->
+  <text x="100" y="185" text-anchor="middle" fill="white"
+        font-size="22" font-family="Inter, sans-serif" letter-spacing="1">
+    ProDigy Infotech
+  </text>
+</svg>
